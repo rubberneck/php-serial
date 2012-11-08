@@ -1,0 +1,19 @@
+{
+    "name": "rubberneck/php-serial",
+    "description": "This PHP class can be used to communicate with a serial port under Linux, OSX or Windows.",
+    "keywords": ["serial", "serialport"],
+    "homepage": "http://code.google.com/p/php-serial/",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Rémy Sanchez",
+            "email": "thenux@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "phpSerial": "" }
+    }
+}
